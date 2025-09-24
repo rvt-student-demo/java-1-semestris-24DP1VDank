@@ -7,6 +7,7 @@ public class odd_even {
         Scanner sc = new Scanner(System.in);
         System.out.print("Write your number: ");
         final int number = sc.nextInt();
+        sc.close();
         System.out.print("Your number is: ");
         if(number % 2 == 0) {
             System.out.println("Even");

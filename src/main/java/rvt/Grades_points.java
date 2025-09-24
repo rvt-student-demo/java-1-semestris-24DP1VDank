@@ -8,6 +8,7 @@ public class Grades_points {
         Scanner sc = new Scanner(System.in);
         System.out.print("Write your points: ");
         final int points = sc.nextInt();
+        sc.close();
         System.out.print("Your grade is: ");
         if(points < 0) {
             System.out.println("impossible!");
@@ -33,7 +34,7 @@ public class Grades_points {
         if (points > 100) {
             System.out.println("Incredible!");
         }
-
+        
 }
 }
 

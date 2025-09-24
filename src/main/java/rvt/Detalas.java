@@ -15,6 +15,7 @@ public class Detalas {
         System.out.print("Ievaidet paplāksnu daudzumu:");
         final int paplaksni = sc.nextInt();
 
+        sc.close();
         if (uzgriezni < skruvi) {
             System.out.println("Kļūda: Uzgriežņu jābut vienāds vai vairāk nekā skrūvi.");
 
@@ -25,5 +26,6 @@ public class Detalas {
         }
         int price = skruvi * 5 + uzgriezni * 3 + paplaksni;
         System.out.println("Kopēja cena:  " + price);
+        
     }
 }

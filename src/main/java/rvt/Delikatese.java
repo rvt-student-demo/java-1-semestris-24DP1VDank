@@ -16,6 +16,8 @@ public class Delikatese {
         System.out.print("Ekspress piegāde (0==nē, 1==jā): ");
         int ekspress = sc.nextInt();
 
+        sc.close();
+
         if (cena < 10 && ekspress == 0){
             double piegade = 2.00;
             double summa = cena + piegade; 
