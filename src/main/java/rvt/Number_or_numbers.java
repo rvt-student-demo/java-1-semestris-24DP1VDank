@@ -16,5 +16,7 @@ public class Number_or_numbers {
         }
         System.out.println("Nuumber of numbers: " + reizes);
         System.out.println("Sum of the numbers: " + sum);
+        sc.close();
 }
+    
 }
