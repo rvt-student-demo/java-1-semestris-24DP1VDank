@@ -6,7 +6,7 @@ public class Swap {
     public static void main(String[] args)  {
         Scanner sc = new Scanner(System.in);
         int[] array = {1, 3, 5, 7, 9};
-
+        
         for (int i = 0 ; i < array.length; i++)
             System.out.println(array[i]);
         System.out.println("Give two indices to swap:");
@@ -18,6 +18,6 @@ public class Swap {
         System.out.println("");
         for (int i = 0 ; i < array.length; i++)
             System.out.println(array[i]);
-        
+        sc.close();
     }
 }
