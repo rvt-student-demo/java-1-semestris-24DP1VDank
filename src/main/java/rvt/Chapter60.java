@@ -71,22 +71,12 @@ public class Chapter60 {
     
     // Put values into valB so that the sum of the values
     // in corresponding cells of valA and valB is 25.
-    int sum = valB[0] + valA[0];
-    int value = 0;
-    for (int i = 0; i < valA.length; i++){
-        value = 0;
-        while(sum != 25){
-            if(sum < 25){
-                value++;
-            }
-            else if(sum > 25){
-                value--;
-            }}
-        valB[i] = value;
-        sum = valA[i] + valB[i];
+   
+    for(int i = 0; i< valA.length; i++){
+        valB[i] = 25 - valA[i];
     }
-        
-    System.out.println( "valA: "  + valA[0] + " " + valA[1] + " " + valA[2] + " " + valA[3] );
+
+    System.out.println( "\nvalA: "  + valA[0] + " " + valA[1] + " " + valA[2] + " " + valA[3] );
  
     System.out.println( "valB: " + valB[0] + " " + valB[1] + " " + valB[2] + " " + valB[3] );
 
@@ -98,6 +88,24 @@ public class Chapter60 {
 
 
     public static void ex5() {
-        
+      int[] val = {0, 1, 2, 3}; 
+    int temp;
+ 
+    System.out.println( "Original Array: " 
+        + val[0] + " " + val[1] + " " + val[2] + " " + val[3] );
+ 
+    // reverse the order of the numbers in the array
+        temp = val[0];
+        val[0] = val[3];
+        val[3] = temp;
+
+        temp = val[1];
+        val[1] = val[2];
+        val[2] = temp;
+ 
+    
+ 
+    System.out.println( "Reversed Array: " 
+        + val[0] + " " + val[1] + " " + val[2] + " " + val[3] );
     }
 }
