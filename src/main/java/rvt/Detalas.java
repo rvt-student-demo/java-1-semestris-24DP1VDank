@@ -1,7 +1,7 @@
 package rvt;
 
 import java.util.Scanner;
-
+// Detalas uzdevums
 public class Detalas {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
