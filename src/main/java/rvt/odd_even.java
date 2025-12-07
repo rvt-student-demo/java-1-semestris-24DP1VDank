@@ -1,7 +1,7 @@
 package rvt;
 
 import java.util.Scanner;
-
+// odd even uzdevums
 public class odd_even {
      public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
