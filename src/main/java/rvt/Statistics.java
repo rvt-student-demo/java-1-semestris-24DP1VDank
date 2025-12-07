@@ -23,6 +23,7 @@ public class Statistics {
         System.out.println("Average: " + statistics.average());
         System.out.println("Sum of even numbers: " + statistics.sum_even());
         System.out.println("Sum of odd numbers: " + statistics.sum_odd());
+        sc.close();
     }
 
         public Statistics() {
