@@ -2,7 +2,7 @@ package rvt;
 
 import java.util.Scanner;
 
-public class Number_or_numbers {
+public class Number_and_sum_of_numbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Give a number:");
