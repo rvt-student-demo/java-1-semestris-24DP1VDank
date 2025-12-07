@@ -29,7 +29,9 @@ public class JMArrayList {
 
         for (int i = start; i <= end; i++){
             System.out.println(numbers.get(i));
+
         }
+        sc.close();
     }
 
 
@@ -45,7 +47,7 @@ public class JMArrayList {
 
         System.out.println();
         System.out.println("In total: " + list.size());
-
+        sc.close();
     }
 
 
@@ -68,6 +70,7 @@ public class JMArrayList {
         } else {
             System.out.println(search + " was not found!");
         }
+        sc.close();
     }
 
 
@@ -76,5 +79,4 @@ public class JMArrayList {
             strings.remove(strings.size() - 1);
         }
     }
-    
 }
