@@ -1,7 +1,7 @@
 package rvt;
 
 import java.util.Scanner;
-
+// Grades, points uzdevums
 public class Grades_points {
     
     public static void main(String[] args) {
